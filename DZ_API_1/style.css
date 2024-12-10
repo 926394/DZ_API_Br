@@ -1,0 +1,84 @@
+/* Обнуление стилей */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  scroll-behavior: smooth;
+  background: #ffffff;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Применений своих стилей */
+
+.header {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+h1 {
+  display: flex;
+}
+
+.titleFlex {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.headerContainer {
+  display: flex;
+  width: 1600px;
+  margin: 0 auto;
+  /* height: 75px; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1600px;
+  margin: 0 auto;
+}
+.mainConteiner {
+  margin-bottom: 50px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  width: 1600px;
+  height: auto;
+}
+
+.containerCon {
+  width: 310px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* BUTTON_BUTTON_BUTTON */
+.buttonOneTwo{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__butt {
+  width: 140px;
+  height: 43px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
